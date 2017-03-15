@@ -1,0 +1,36 @@
+PODS:
+  - Alamofire (4.3.0)
+  - PMKVObserver (2.0.1):
+    - PMKVObserver/ObjC (= 2.0.1)
+    - PMKVObserver/Swift (= 2.0.1)
+  - PMKVObserver/ObjC (2.0.1)
+  - PMKVObserver/Swift (2.0.1):
+    - PMKVObserver/ObjC
+  - SwiftyJSON (3.1.3)
+  - WebLinking (1.1.0)
+
+DEPENDENCIES:
+  - Alamofire (= 4.3.0)
+  - PMKVObserver (~> 2.0)
+  - SwiftyJSON (= 3.1.3)
+  - WebLinking (from `https://github.com/kylef/WebLinking.swift`, commit `fddbacc`)
+
+EXTERNAL SOURCES:
+  WebLinking:
+    :commit: fddbacc
+    :git: https://github.com/kylef/WebLinking.swift
+
+CHECKOUT OPTIONS:
+  WebLinking:
+    :commit: fddbacc
+    :git: https://github.com/kylef/WebLinking.swift
+
+SPEC CHECKSUMS:
+  Alamofire: 856a113053a7bc9cbe5d6367a555d773fc5cfef7
+  PMKVObserver: f3955b3beae9c6198ad347d4eb9b125477e9cb72
+  SwiftyJSON: 38a8ea2006779c0fc4c310cb2ee8195327740faf
+  WebLinking: 3f71787c14a225148e8be29fe6e7c98597cbc459
+
+PODFILE CHECKSUM: bada1c44a3ac0fdfddc7a24d5b9a48b65362438e
+
+COCOAPODS: 1.1.1
